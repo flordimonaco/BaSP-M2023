@@ -17,6 +17,8 @@ Box? Functional? Spinning? The possibilities are endless. Give us a try!
 
 _____________________________________________________________________________________________
 
+#WEEK 02
+
 Now it's time to show all the work done to code this in HTML✨
 
 First of all, you need to clone this repository on your device. To do that, you have to follow 
@@ -33,5 +35,12 @@ Assuming you have already installed git, now more steps for you:
 - Your console will open and there you just have to type "git clone" and paste the link (the one you copied before, remember?)
 - When you press enter, it will start copying everything in the repository to your device
 - Now you are ready to see all my work and see how it is
+
+#WEEK 03
+
+This week all of our work was focused on learning css!
+
+Now you should be able to see all our figma work turned not only to a html page but also styled in css 🙋‍♀️
+Let's see if all of our efforts are well received 🤪
 
 # Hope you like it!
