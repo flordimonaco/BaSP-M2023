@@ -48,13 +48,11 @@ body {
     height: 25px;
 }
 
-/* aca empieza la sidebar */
-
 .sidebar {
     position: absolute;
     background-color: #E3EC39;
     width: 336px;
-    height: 5903px;
+    height: 5849px;
 }
 
 .sidebar nav ul li {
@@ -71,14 +69,10 @@ body {
     color: #000000;
 }
 
-/* a partir de aca main */
-
 .container-main {
     margin-left: 336px;
     height: 864px;
 }
-
-/* empieza home */
 
 .home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../Assets/Images/inicio.png");
@@ -110,8 +104,6 @@ body {
     font-family: 'Roboto';
     font-size: 30px;
 }
-
-/* empieza features */
 
 .features {
     background-color: #535353;
@@ -247,8 +239,6 @@ body {
     padding-top: 20px;
 }
 
-/* aca arranca formulario */
-
 .contact {
     background-color: #535353;
 }
@@ -340,8 +330,6 @@ body {
     border: 0;
     font-weight: bold;
 }
-
-/* aca estan las actividades */
 
 .activities {
     background-color: #535353;
@@ -457,8 +445,6 @@ body {
     padding-top: 70px;
 }
 
-/* memberships */
-
 .section-memberships {
     background-color: #535353;
 }
@@ -493,12 +479,14 @@ body {
     border-radius: 10px;
     margin-top: 140px;
     margin-left: 380px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     text-align: center;
 }
 
 .p-onlyc {
     text-align: center;
+    line-height: 70px;
+    margin-top: 100px;
     margin-bottom: 100px;
     color: #FFFFFF;
     font-size: 24px;
@@ -510,7 +498,7 @@ body {
     width: 480px;
     height: 575px;
     border-radius: 10px;
-    margin-top: 140px;
+    margin-top: 50px;
     margin-left: 380px;
     margin-bottom: 50px;
     text-align: center;
@@ -518,6 +506,8 @@ body {
 
 .p-classic {
     text-align: center;
+    line-height: 70px;
+    margin-top: 100px;
     margin-bottom: 100px;
     color: #FFFFFF;
     font-size: 24px;
@@ -529,7 +519,6 @@ body {
     width: 480px;
     height: 575px;
     border-radius: 10px;
-    margin-top: 140px;
     margin-left: 380px;
     margin-bottom: 50px;
     text-align: center;
@@ -537,12 +526,12 @@ body {
 
 .p-black {
     text-align: center;
+    line-height: 70px;
+    margin-top: 100px;
     margin-bottom: 100px;
     color: #FFFFFF;
     font-size: 24px;
 }
-
-/* historia */
 
 .story {
     position: relative;
@@ -580,13 +569,11 @@ body {
     padding-top: 20px;
 }
 
-/* footer */
-
 footer {
     background-color: #323232;
     height: 147px;
     padding: 10px;
-    margin-top: 5904px;
+    margin-top: 4985px;
 }
 
 footer a {
@@ -598,12 +585,9 @@ footer a {
 }
 
 footer a img {
+    margin-top: 30px;
     margin-right: 10px;
-    transform: translate(-10px, 30px);
-}
-
-footer .p-footer {
-    text-align: center;
+    transform: translate(-40px, 30px);
 }
 
 footer h2 {
@@ -611,7 +595,7 @@ footer h2 {
     font-size: 18px;
     font-weight: bold;
     margin-left: 1050px;
-    margin-top: -35px;
+    margin-top: 30px;
 }
 
 footer span {

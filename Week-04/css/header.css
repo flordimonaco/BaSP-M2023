@@ -1,0 +1,100 @@
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 154px;
+    background-color:#535353;
+}
+.container-logo img{
+    width: 104px;
+    height: 114px;
+    margin-left:20px;
+}
+.container-logo h1{
+    display: none;
+}
+.menu-hamburger{
+    margin-right:35px;
+}
+.container-button{
+    display: none;
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+    .header-container{
+        height: 245px;
+    }
+    .container-logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 35px;
+    }
+    .container-logo img{
+        width: 140px;
+        height: 150px;
+    }
+    .container-logo h1{
+        display: block;
+        font-size: 48px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #E3EC39;
+    }
+    .menu-hamburger img{
+        width: 87px;
+        height: 78px;
+    }
+}
+@media (min-width: 1025px){
+    .container-header{
+        justify-content: space-between;
+        width: 100vw;
+        height: 188px;
+    }
+    .container-logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 35px;
+    }
+    .container-logo img{
+        width: 100px;
+        height: 95px;
+    }
+    .container-logo h1{
+        display: block;
+        font-size: 45px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #E3EC39;
+    }
+    .menu-hamburger{
+        display: none;
+    }
+    .container-button{
+        display: flex;
+        gap: 57px;
+        margin-right: 35px;
+    }
+    .home-button{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 158px;
+        height: 76px;
+        border-width: 1px;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+        text-decoration: none;
+    }
+    .home-button p{
+        font-size: 25px;
+        left: 28px;
+        color: #000000;  
+    }
+    .home-button img{
+        width: 35px;
+        height: 35px;
+    }
+}
