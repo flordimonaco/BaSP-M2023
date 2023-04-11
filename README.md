@@ -17,7 +17,7 @@ Box? Functional? Spinning? The possibilities are endless. Give us a try!
 
 _____________________________________________________________________________________________
 
-#WEEK 02
+## _WEEK 02_
 
 Now it's time to show all the work done to code this in HTML✨
 
@@ -36,11 +36,17 @@ Assuming you have already installed git, now more steps for you:
 - When you press enter, it will start copying everything in the repository to your device
 - Now you are ready to see all my work and see how it is
 
-#WEEK 03
+## _WEEK 03_
 
 This week all of our work was focused on learning css!
 
-Now you should be able to see all our figma work turned not only to a html page but also styled in css 🙋‍♀️
+Now you should be able to see all our figma work turned not only to a html page but also styled in css 🙋🏻‍♀️
 Let's see if all of our efforts are well received 🤪
+
+## _WEEK 04_
+
+New week, new skills to learn!
+It's becoming more and more difficult but I try to get better... Or at least not get worse! 🙀
+This week css style has been a little bit more manageable with flexbox use 🙌🏻 but not so much easier 👀
 
 # Hope you like it!
