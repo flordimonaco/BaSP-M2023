@@ -47,6 +47,9 @@ Let's see if all of our efforts are well received 🤪
 
 New week, new skills to learn!
 It's becoming more and more difficult but I try to get better... Or at least not get worse! 🙀
+
 This week css style has been a little bit more manageable with flexbox use 🙌🏻 but not so much easier 👀
+and we also got used to GitHub pages, so here it goes my link:
+https://flordimonaco.github.io/BaSP-M2023/
 
 # Hope you like it!
