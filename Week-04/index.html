@@ -2,13 +2,17 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width-device-width, initial-scale-1.0">
-        <title>Mega Rocket Gym</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap">
         <link rel="stylesheet" href="../Week-04/css/reset.css">
         <link rel="stylesheet" href="../Week-04/css/common.css">
         <link rel="stylesheet" href="../Week-04/css/header.css">
         <link rel="stylesheet" href="../Week-04/css/main.css">
         <link rel="stylesheet" href="../Week-04/css/footer.css">
+        <title>Mega Rocket Gym</title>
     </head>
     <body>
         <header class="container-header">
@@ -17,9 +21,7 @@
                 <h1>MEGA ROCKET S.A.</h1>
             </div>
             <div class="menu-hamburger">
-                <a href="#">
-                    <img src="../Assets/Images/hamburguesa.png" alt="hamburger menu">
-                </a>
+                <img src="../Assets/Images/hamburguesa.png" alt="hamburger menu">
             </div>
             <div class="container-button">
                 <a href="#" class="home-button login"></a>
@@ -76,7 +78,7 @@
             <div class="container-main">
                 <section id="HOME" class="main-home">
                     <div class="main-img">
-                        <img class="ipad-img" src="../Assets/Images/inicio-ipad.png">
+                        <img class="ipad-img" src="../Assets/Images/inicio.png">
                         <img class="mobile-img" src="../Assets/Images/inicio-mobile.png">
                     </div>
                     <div class="main-title">
@@ -84,7 +86,7 @@
                             DON'T SIT 
                             <span>GET FIT</span>
                         </h2>
-                        <div class="main-text"
+                        <div class="main-text">
                             <p>
                                 Your best version is waiting for you, join Mega Rocket Gym today.
                             </p>
@@ -102,8 +104,8 @@
                             FEATU
                             <span>RES</span>
                         </h3>
-                        <div class="features-list">
-                            <article class="reservations">
+                        <div class="list-features">
+                            <article class="features-list reservations">
                                 <img class="reservations-img" src="../Assets/Images/reservations.png">
                                 <h4>RESERVATIONS</h4>
                                 <div class="text-features">
@@ -111,25 +113,25 @@
                                     <p>ensure your place</p>
                                 </div>
                             </article>
-                            <article class="schedule">
+                            <article class="features-list schedule">
                                 <img class="schedule-img" src="../Assets/Images/schedule.png">
                                 <h4>SCHEDULE</h4>
-                                <div class="text-features"
+                                <div class="text-features">
                                     <p>Monday to saturday</p> 
                                     <p>am till 08 pm</p>
                                 </div>
                             </article>
-                            <article class="memberships">
+                            <article class="features-list memberships">
                                 <img class="memberships-img" src="../Assets/Images/memberships.png">
                                 <h4>MEMBERSHIPS</h4>
-                                <div class="text-features"
+                                <div class="text-features">
                                     <p>Pick which one</p>
                                     <p>is best for you</p>
                             </article>
-                            <article class="contact-suggestions">
+                            <article class="features-list contactsuggestions">
                                 <img class="contact-img" src="../Assets/Images/contactsuggestions.png">
                                 <h4>CONTACT AND SUGGESTIONS</h4>
-                                <div class="text-features"
+                                <div class="text-features">
                                     <p class="text-contact">Your opinion is important to us,</p>
                                     <p class="text-contact">it helps us improve</p>
                                 </div>
@@ -142,21 +144,21 @@
                         CONTACT 
                         <span>US</span>
                     </h3>
-                    <form class="form-contact">
+                    <form>
                         <li>
                             <div class="form-name">
                                 <label>Name</label>
                                 <input type="text" required placeholder="Name">
                             </div>
-                            <div name="surname">
+                            <div name="form-surname">
                                 <label>Surname</label>
                                 <input type="text" required placeholder="Surname">
                             </div>
-                            <div class="email">
+                            <div class="form-email">
                                 <label>E-mail</label>
                                 <input type="text" required placeholder="E-mail">
                             </div>
-                            <div class="contact-reason">
+                            <div class="form-contactreason">
                                 <label>Contact reason</label>
                                 <select>
                                     <option value="I want to know the memberships and its costs">I want to know the memberships and its costs</option>
@@ -165,11 +167,11 @@
                                 </select>
                             </div>
                         </li>
-                        <div class="message">
+                        <div class="form-message">
                             <label>Message</label>
                             <input type="text" required placeholder="Write here...">
                         </div>
-                        <button>
+                        <button class="contact-button">
                             <p>SEND</p>
                         </button>
                     </form>
@@ -208,7 +210,7 @@
                         <span>SHIPS</span>
                     </h3>
                     <article class="memberships-list onlyc">
-                        <img class="onlyc-img">
+                        <img class="onlyc-img" src="../Assets/Images/onlyclasses.png">
                         <h4>ONLY CLASSES MEMBERSHIP</h4>
                             <div class="memberships-text">
                                 <p>Free access to classes with registration</p>
@@ -216,7 +218,7 @@
                             </div>
                     </article>
                     <article class="memberships-list classic">
-                        <img class="classic-img">
+                        <img class="classic-img" src="../Assets/Images/classic.png">
                         <h4>CLASSIC MEMBERSHIP</h4>
                             <div class="memberships-text">
                                 <p>Free access to the gym</p>
@@ -225,7 +227,7 @@
                             </div>
                     </article>
                     <article class="memberships-list black">
-                        <img class="black-img">
+                        <img class="black-img" src="../Assets/Images/black.png">
                         <h4>BLACK MEMBERSHIP</h4>
                             <div class="memberships-text">
                                 <p>Free access to the gym</p>
@@ -240,7 +242,7 @@
                         OUR
                         <span>STORY</span>
                     </h3>
-                    <div class="p-story">
+                    <div class="story">
                         <p>We are one of the oldest but most modern gyms.</p> 
                         <p>50 trainers work in MR GYM and more than 200 people come to our place everyday.</p>
                         <p>We are dedicated to helping you improve your quality of life in a fun and active way</p>
