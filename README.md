@@ -50,6 +50,6 @@ It's becoming more and more difficult but I try to get better... Or at least not
 
 This week css style has been a little bit more manageable with flexbox use 🙌🏻 but not so much easier 👀
 and we also got used to GitHub pages, so here it goes my link:
-https://flordimonaco.github.io/BaSP-M2023/
+https://flordimonaco.github.io/BaSP-M2023/Week-04/index.html
 
 # Hope you like it!
