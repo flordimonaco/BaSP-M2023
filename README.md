@@ -52,4 +52,9 @@ This week css style has been a little bit more manageable with flexbox use 🙌�
 and we also got used to GitHub pages, so here it goes my link:
 https://flordimonaco.github.io/BaSP-M2023/Week-04/index.html
 
+## _WEEK 05_
+
+JavaScript is now with us! And this week's challenge is to solve some exercises in js format.
+Let's hope it's a good one for me 😬
+
 # Hope you like it!
