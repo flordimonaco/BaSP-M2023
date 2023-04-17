@@ -55,6 +55,7 @@ https://flordimonaco.github.io/BaSP-M2023/Week-04/index.html
 ## _WEEK 05_
 
 JavaScript is now with us! And this week's challenge is to solve some exercises in js format.
-Let's hope it's a good one for me 😬
+Let's hope it's a good one for me 😬 Here's the link with what I've been working on: 
+https://flordimonaco.github.io/BaSP-M2023/Week-05/index.html
 
 # Hope you like it!
