@@ -1,43 +1,57 @@
 footer{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    width: 100vw;
-    height: 500px;
-    background-color: #c4c4c4;
+    gap: 40px;
+    padding: 30px 0;
+    background-color: #C4C4C4;
 }
-footer article{
+footer a{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 20px 0 20px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
 }
-footer article img{
+footer a img{
     width: 52px;
-    height: 54px;
-    margin-bottom: 25px;
+    margin: auto;
 }
-footer article p{
-    font-size: 20px;
+footer p{
+    font-weight: 400;
+    font-size: 1.125rem;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: pre-line;
+    color: #666666;
 }
-@media (min-width: 601px) and (max-width: 1024px) {
+footer p span{
+    font-weight: 400;
+    text-transform: capitalize;
+}
+@media (min-width: 601px) and (max-width: 1024px){
     footer{
         flex-direction: row;
-        align-items: center;
         flex-wrap: wrap;
-        height: 280px;
+        justify-content: space-around;
     }
-    footer article{
-        flex: 30%;
+    footer p{
+        flex-basis: 100%;
     }
 }
 @media (min-width: 1025px){
     footer{
-        height: 147px;
         flex-direction: row;
         justify-content: space-around;
-        background-color: #000000;
-        color: #ffffff;
+        background-color: #323232;
+    }
+    footer a{
+        flex-direction: row;
+        align-items: center;
+        color: #fff;
+    }
+    footer p{
+        color: #fff;
     }
 }
