@@ -58,4 +58,10 @@ JavaScript is now with us! And this week's challenge is to solve some exercises 
 Let's hope it's a good one for me 😬 Here's the link with what I've been working on: 
 https://flordimonaco.github.io/BaSP-M2023/Week-05/index.html
 
+## _WEEK 06_
+
+This week we're looking forward to make our website functional, starting with the log in and sign up pages.
+JavaScript is challenging, but I'll try to make it work to give you a beautiful result!🤪
+Check it out! Here's the link: https://flordimonaco.github.io/BaSP-M2023/Week-06/views/index.html
+
 # Hope you like it!
