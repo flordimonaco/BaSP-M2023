@@ -1,0 +1,79 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 18%;
+    padding: 0px 30px;
+    background-color: #535353;
+}
+h1{
+    display: none;
+}
+.hamburguer-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 40px;
+    background-color: #E3EC39;
+    border-radius: 5px;
+    border: none;
+}
+.hamburguer-menu img{
+    width: 50px;
+    height: 40px;
+}
+.container-login-signup a{
+    display: none;
+}
+.login-signup-side{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (min-width: 1025px){
+    h1{
+        display: block;
+        font-size: 2.8rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-shadow: 0px 4px 4px #00000040;
+        color: #E3EC39E6;
+    }
+    header{
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #323232;
+    }
+    .container-header-logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hamburguer-menu{
+        display: none;
+    }
+    .container-login-signup{
+        display: flex;
+        justify-content: space-around;
+        gap:60px;
+    }
+    .container-login-signup a{
+        display: inline;
+        width: 164px;
+        height: 66px;
+        padding: 10px 6px;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+    }
+    .container-login-signup a{
+        font-weight: 500;
+        font-size: 1.55rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        color: black;
+    }
+}
