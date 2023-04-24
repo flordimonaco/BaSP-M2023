@@ -207,9 +207,6 @@ nav ul {
 .black-membership{
     background-image: linear-gradient(#000000b3, #000000b3),url(../../Assets/Images/black.png);
 }
-/* .display-only-desktop{
-    display: none;
-} */
 #container-story{
     display: flex;
     flex-direction: column;
@@ -393,8 +390,4 @@ nav ul {
     #container-story p{
         font-size: 1.5rem;
     }
-    /* .display-only-desktop{
-        display: block;
-    } */
-    
 }

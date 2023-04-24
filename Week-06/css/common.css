@@ -33,3 +33,43 @@ p{
     margin-top: 30px;
     color: #E3EC39;
 }
+.form-login,
+.form-signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 60px 0;
+    margin: 100px;
+    background-color: #E3EC39E5;
+    border-radius: 25px;
+    font-weight: 500;
+}
+.form-login label,
+.form-signup label{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 700;
+    color: #373867;
+}
+.form-login input,
+.form-signup input{
+    width: 46%;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #373867;
+}
+.form-login h2,
+.form-signup h2{
+    color:black;
+    font-weight: 500;
+    font-size: 30px;
+}
+.button-accept{
+    width: 105px;
+    height: 38px;
+    background-color: #373867;
+    border-radius: 10px;
+    color: #E3EC39E5;
+}
