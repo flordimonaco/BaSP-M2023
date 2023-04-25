@@ -25,13 +25,13 @@
     }
 
     .form-signup div input{
-        width: 80%;
+        width: 60%;
     }
     .form-signup div:last-child{
         flex-basis: 100%;
         justify-content: center;
     }
     .form-signup .button-accept{
-        width: 40%;
+        width: 20%;
     }
 }
