@@ -47,7 +47,7 @@ function emailValidation() {
     if (passwordValidation() === false) {
       password.insertAdjacentHTML(
         "afterend",
-        '<div id="errorEmailPassword" class="errorEmailPassword">Email or password incorrect</div>'
+        '<div id="errorEmailPassword" class="errorMessage">Email or password incorrect</div>'
       );
     }
   }
