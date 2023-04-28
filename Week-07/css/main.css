@@ -1,0 +1,393 @@
+main{
+    background-color: #535353;
+    text-align: center;
+}
+
+aside{
+    display: none;
+    padding: 55px 10%;
+    background-color: #000000e8;
+    text-align: center;
+}
+aside a,
+aside p{
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffff;
+}
+nav{
+    margin-top: 100px;
+}
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 650px;
+}
+.data-side{
+    display: flex;
+    flex-direction: column;
+}
+#container-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80vh;
+    padding: 1em 1em 9em 1em;
+    background-image:linear-gradient(#00000080, #00000080), url(../../Assets/Images/inicio-mobile.png);
+    background-size:cover;
+}
+#container-features{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+#container-features article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 85%;
+    height: 50vh;
+    background-size: cover ;
+    background-position: center;
+    border-radius: 30px;
+}
+#container-features h3{
+    font-weight: 900;
+    color: #E3EC39;
+}
+#container-features p{
+    text-align: center;
+    font-weight: 600;
+    white-space: pre-line;
+}
+.features-reservations{
+    background-image: linear-gradient(#00000080, #00000080),url(../../Assets/Images/reservations.png);
+}
+.features-schedule{
+    background-image: linear-gradient(#00000080, #00000080),url(../../Assets/Images/schedule.png);
+}
+.features-memberships{
+    background-image: linear-gradient(#00000080, #00000080),url(../../Assets/Images/memberships.png);
+}
+.features-contactsuggestions{
+    background-image: linear-gradient(#00000080, #00000080),url(../../Assets/Images/contactsuggestions.png);
+}
+#container-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#container-contact form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 90%;
+    height: 80vh;
+    padding: 30px 0;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+}
+.contact-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-input input,
+.contact-input select{
+    height: 30px;
+    border: 1px solid #373867;
+}
+.contact-input input,
+.contact-input select,
+.contact-input textarea{
+    width: 80%;
+    background: linear-gradient(0deg, #00000033, #00000033), #FFFFFF;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #535353fc;
+}
+.contact-input textarea{
+    border: none;
+}
+#submit-button{
+    width: 75px;
+    height: 35px;
+    margin: 20px auto;
+    background-color: #E3EC39;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 800;
+    color: #000000;
+}
+
+.activities-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    margin: 50px 0px;
+}
+#container-activities{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+#container-activities h2{
+    align-self: center;
+}
+#container-activities article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    text-align: center;
+}
+#container-activities h3{
+    background-color: hsla(0, 0%, 7%, 0.568);
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+.activities-crossfit{
+    background-image: linear-gradient(#0000004d, #0000004d),url(../../Assets/Images/crossfit.jpg);  
+}
+.activities-box{
+    background-image: linear-gradient(#0000004d, #0000004d),url(../../Assets/Images/box.png);  
+}
+.activities-functional{
+    background-image: linear-gradient(#0000004d, #0000004d),url(../../Assets/Images/functional.png);  
+}
+.activities-spinning{
+    background-image: linear-gradient(#0000004d, #0000004d),url(../../Assets/Images/spinning.png);  
+}
+.activities-fitness{
+    background-image: linear-gradient(#0000004d, #0000004d),url(../../Assets/Images/fitness.png);  
+}
+#container-memberships{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#container-memberships ul{
+    width: 90%;
+}
+#container-memberships li{
+    height: 80vh;
+    margin: 70px 0;
+    background-size:cover;
+    background-position: center;
+    border-radius: 10px;
+    white-space: pre-line;
+}
+#container-memberships p{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.onlyclasses-membership{
+    background-image: linear-gradient(#000000b3, #000000b3),url(../../Assets/Images/onlyclasses.png);
+}
+.classic-membership{
+    background-image: linear-gradient(#000000b3, #000000b3),url(../../Assets/Images/classic.png);
+}
+.black-membership{
+    background-image: linear-gradient(#000000b3, #000000b3),url(../../Assets/Images/black.png);
+}
+#container-story{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 0px 200px;
+}
+#container-story div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    width: 90%;
+    background: linear-gradient(0deg, #00000033, #00000033), #e0e0e0e6;
+    border-radius: 18px;
+    white-space: pre-line;
+}
+#container-story p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #404040;
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    h2{
+        font-size: 6.25rem;
+    }
+    main p{
+        font-size: 1.9rem;
+    }
+    #container-home{
+        height: 200vh;
+    }
+    #container-features{
+        gap: 140px;
+    }
+    #container-features article{
+        height: 450px;
+    }
+    #container-features h3{
+        font-size: 3.5rem;
+    }
+    #container-features p{
+        font-size: 2.8rem;
+    }
+
+    #container-contact form{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .contact-inputs:not(:last-child){
+        width: 45%;
+    }
+    #container-activities article{
+        height: 65vh;
+    }
+    #container-activities h3{
+        font-size: 5rem;
+    }
+    #container-memberships li{
+        height: 65vh;
+    }
+    .onlyclasses-membership{
+        background-image: linear-gradient(#8b7c7c66, #8b7c7c66),url(../../Assets/Images/onlyclasses.png);
+    }
+    .classic-membership{
+        background-image: linear-gradient(#8b7c7c66, #8b7c7c66),url(../../Assets/Images/classic.png);
+    }
+    .black-membership{
+        background-image: linear-gradient(#8b7c7c66, #8b7c7c66),url(../../Assets/Images/black.png);
+    }
+    #container-story div{
+        height: 40vh;
+    }
+    #container-story p{
+        font-size: 1.5rem;
+    }
+}
+@media (min-width: 1025px){
+    h2{
+        font-size: 6.25rem;
+    }
+    main{
+        display: flex;
+    }
+    aside{
+        display: flex;
+        justify-content: center;
+        width: 5%;
+        background-color: #E3EC39;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    h2{
+        flex-basis: 100%;
+        justify-content: center;
+    }
+    nav a,
+    nav p{
+        color: #000000;
+    }
+    .login-signup-side{
+        display: none;
+    }
+    #container-home{
+        height: 100vh;
+        background-image: linear-gradient(#00000080, #00000080),url(../../Assets/Images/inicio.png);
+    }
+    #container-home h2{
+        flex-basis: content;
+    }
+    #container-home p{
+        font-size: 1.9rem;
+        white-space: normal;
+    }
+    #container-features{
+        justify-content: center;
+    }
+    #container-features article{
+        width: 40%;
+        height: 35vh;
+    }
+    #container-features p{
+        font-size: 1.9rem;
+        white-space: normal;
+    }
+    #container-contact form{
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 60vh;
+    }
+    .contact-input label{
+        padding: 10px 0;
+        text-align: left;
+    }
+    .contact-input:not(:last-child){
+        width: 25%;
+    }
+    .contact-input:last-child{
+        width: 100%;
+    }
+
+    .activities-list{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    #container-activities article{
+        width: 30%;
+        height: 25vh;
+    }
+    #container-memberships ul{
+        width: 40%;
+    }
+    #container-memberships li{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 70vh;
+    }
+
+    #container-story{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #container-story h2{
+        flex-basis:content ;
+        font-size: 3.75rem;
+    }
+    #container-story div{
+        width: 55%;
+        height: 50vh;
+    }
+    #container-story p{
+        font-size: 1.5rem;
+    }
+}

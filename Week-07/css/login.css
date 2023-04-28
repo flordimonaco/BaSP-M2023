@@ -1,0 +1,11 @@
+.form-login{
+    width: 70%;
+    height: 50vh;
+    margin-left: 32%;
+}
+
+@media (min-width:1025px){
+    .form-login{
+        width: 40%;
+    }
+}

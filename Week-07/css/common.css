@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:#6b6a6a;
+}
+h2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: content;
+    padding: 30px 0;
+    font-weight: 800;
+    font-size: 3.75rem;
+    text-transform: uppercase;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #ffff;
+}
+h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 0px 4px 4px #00000040;
+    color: #E3EC39;
+}
+p{
+    font-weight: 500;
+    font-size: 1.25rem;
+    white-space: pre-line;
+    color: #ffff;
+}
+.span-h2{
+    width: 100%;
+    margin-left:35% ;
+    margin-top: 30px;
+    color: #E3EC39;
+}
+.form-login,
+.form-signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 60px 0;
+    margin: 100px;
+    background-color: #E3EC39E5;
+    border-radius: 25px;
+    font-weight: 500;
+}
+.form-login label,
+.form-signup label{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 700;
+    color: #373867;
+}
+.form-login input,
+.form-signup input{
+    width: 46%;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #373867;
+}
+.form-login h2,
+.form-signup h2{
+    color:black;
+    font-weight: 500;
+    font-size: 30px;
+}
+.button-accept{
+    width: 105px;
+    height: 38px;
+    background-color: #373867;
+    border-radius: 10px;
+    color: #E3EC39E5;
+}
+.errorMessage{
+    font-size: 12px;
+    color: #E64848;
+}
