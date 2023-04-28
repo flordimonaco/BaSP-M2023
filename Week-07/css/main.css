@@ -2,34 +2,6 @@ main{
     background-color: #535353;
     text-align: center;
 }
-
-aside{
-    display: none;
-    padding: 55px 10%;
-    background-color: #000000e8;
-    text-align: center;
-}
-aside a,
-aside p{
-    font-size: 2rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #ffff;
-}
-nav{
-    margin-top: 100px;
-}
-nav ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 650px;
-}
-.data-side{
-    display: flex;
-    flex-direction: column;
-}
 #container-home{
     display: flex;
     flex-direction: column;
