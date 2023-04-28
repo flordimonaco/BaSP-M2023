@@ -5,7 +5,6 @@
 .form-signup div{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width:100%;
 }
@@ -14,6 +13,7 @@
     .form-signup{
         flex-direction: row;
         justify-content:initial;
+        width: 70%;
     }
     .form-signup h2{
         flex-basis: 100%;
@@ -30,6 +30,7 @@
     .form-signup div:last-child{
         flex-basis: 100%;
         justify-content: center;
+        align-content: space-between;
     }
     .form-signup .button-accept{
         width: 20%;
