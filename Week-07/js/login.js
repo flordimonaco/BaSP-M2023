@@ -1,10 +1,9 @@
 var email = document.querySelector("#email");
-var emailRegex = /^[^@]+@[^@]+.[a-zA-Z]{2,}$/;
 var password = document.querySelector("#password");
 var buttonLogin = document.querySelector("#button-login");
 
 function emailValidation() {
-    if (email.value === "" || !emailRegex.test(email.value)) {
+    if (email.value === "") {
       return false;
     } else {
       return true;
@@ -13,46 +12,28 @@ function emailValidation() {
 
   function passwordValidation() {
     if (
-      password.value === "" ||
-      password.value.length < 8 ||
-      validateNumbersAndLetters(password.value) == false
+      password.value === ""
     ) {
       return false;
     } else {
       return true;
     }
   }
-  function validateNumbersAndLetters(passwordTest) {
-    var hasNumbers = false;
-    var i = 0;
-    do {
-      if (!isNaN(passwordTest[i])) {
-        hasNumbers = true;
-      }
-      i++;
-    } while (i < passwordTest.length && hasNumbers == false);
-    
-    if (hasNumbers == true && isNaN(passwordTest)) {
-      return true;
-    } else {
-      return false;
-    }
-  }
 
   function blurEmail() {
     if (emailValidation() === false) {
-      password.insertAdjacentHTML(
+      email.insertAdjacentHTML(
         "afterend",
-        '<div id="errorEmailPassword" class="errorEmailPassword">Email or password incorrect</div>'
+        '<div id="errorEmailPassword" class="errorMessage">Email or password incorrect</div>'
       );
     }
   }
-  
+
   function blurPassword() {
     if (passwordValidation() === false) {
       password.insertAdjacentHTML(
         "afterend",
-        '<div id="errorEmailPassword" class="errorMessage">Email or password incorrect</div>'
+        '<div id="errorEmailPassword" class="errorMessage">Password required</div>'
       );
     }
   }
@@ -63,13 +44,28 @@ function emailValidation() {
     }
   }
 
-  function onClickLogIn() {
-    if (emailValidation() && passwordValidation() == true) {
-      alert("Email: " + email.value + "\nPassword: " + password.value);
-    } else {
-      alert("Email or password incorrect");
-    }
+  function fetchLogin(){
+
+    fetch(`https://api-rest-server.vercel.app/login?email=${email.value}&password=${password.value}`)
+      .then(function(response){
+        return response.json();
+      })
+      .then(function(data){
+        alert(data.msg);
+      })
+      .catch(function(errors){
+          console.log(errors.msg)
+      })
   }
+
+  function onClickLogIn() {
+  if (emailValidation() && passwordValidation() == true) {
+    fetchLogin()
+    alert("Email: " + email.value + "\nPassword: " + password.value);
+  } else {
+    alert("Email or password error");
+  }
+}
 
   email.addEventListener("blur", blurEmail);
   email.addEventListener("focus", focusInputEmailPassword);

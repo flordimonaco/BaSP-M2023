@@ -50,9 +50,20 @@ function validateDni() {
 }
 
 function validateDateOfBirth() {
+  var splitDate = dateOfBirth.value.split('-');
+  var year = parseInt(splitDate[0], 10);
+  var month = parseInt(splitDate[1], 10);
+  var day = parseInt(splitDate[2], 10);
+  var dateOfBirthValue= new Date(year, month - 1, day);
+  var currentDate = new Date();
+  console.log(dateOfBirthValue)
+  console.log(currentDate)
+  
   if (dateOfBirth.value === "") {
     return 1;
-  } else {
+  }else if (dateOfBirthValue > currentDate) {
+    return 2;
+  }else {
     return true;
   }
 }
@@ -459,7 +470,7 @@ phoneNumber.addEventListener("blur", function () {
   blurFunction(5);
 });
 phoneNumber.addEventListener("focus", function () {
-  focusFunction("phone");
+  focusFunction("phoneNumber");
 });
 adress.addEventListener("blur", function () {
   blurFunction(6);
