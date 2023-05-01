@@ -1,8 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-body{
-    font-family: 'Roboto', sans-serif;
-    background-color:#6b6a6a;
-}
 aside{
     padding: 55px 10%;
     background-color: #000000e8;
@@ -59,13 +54,13 @@ p{
     margin-top: 30px;
     color: #E3EC39;
 }
-.log-in-main,
-.sign-up-main{
+.main-login,
+.main-signup{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(../../assets/images/background-log-in-sign-up.jpg);
+    background-image: url(../../Assets/Images/background.jpg);
     background-size: cover;
 }
 .main-login aside,
