@@ -64,4 +64,10 @@ This week we're looking forward to make our website functional, starting with th
 JavaScript is challenging, but I'll try to make it work to give you a beautiful result!🤪
 Check it out! Here's the link: https://flordimonaco.github.io/BaSP-M2023/Week-06/views/index.html
 
+## _WEEK 07_
+
+Adding some more programming to our website! This time, fetch and local storage were our main characters.
+Hoping our hard work shows results and it's easier visualization for users 😎
+Here's the link for you to check it out: https://flordimonaco.github.io/BaSP-M2023/Week-07/views/index.html
+
 # Hope you like it!
