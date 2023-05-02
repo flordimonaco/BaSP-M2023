@@ -7,110 +7,108 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Lato:wght@100;400;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../Week-06/css/reset.css">
-    <link rel="stylesheet" href="../../Week-06/css/common.css">
-    <link rel="stylesheet" href="../../Week-06/css/header.css">
-    <link rel="stylesheet" href="../../Week-06/css/footer.css">
-    <link rel="stylesheet" href="../../Week-06/css/sign-up.css">
-    <script src="../js/sign-up.js" defer></script>
-    <title>Mega Rocket Sign Up</title>
-    <link rel="mega-icon" href="../../Assets/Images/logo-mega.png" type="image/png">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/sign-up.css">
+    <script defer src="../js/sign-up.js"></script>
+    <title>Mega Rocket Sign up</title>
+    <link rel="icon" href="../../Assets/Images/logo-mega.png" type="image/png">
 </head>
 <body>
     <header>
-        <div class="container-header-logo">
-            <a href="../views/index.html">
-                <img src="../../Assets/Images/logo-mega.png" alt="logo Mega Rocket"/>
-            </a>
-            <h1>MEGA ROCKET S.A.</h1>
+        <div class="logo-header-container">
+            <a href="../views/index.html"><img class="logo" src="../../Assets/Images/logo-mega.png" alt="radium-rocket-logo"></a>
+            <h1>
+                MEGA ROCKET S.A.
+            </h1>
         </div>
-        <div class="container-login-signup">
-            <button class="hamburger-menu">
-                <img src="../../Assets/Images/hamburguesa.png" alt="hamburger menu">
-            </button>
+        <div class="login-sign-header">
+            <button class="burguer-menu"><img src="../../Assets/Images/hamburguesa.png" alt="burguer-menu"></button>
             <a href="../views/login.html">
                 LOGIN
-                <img src="../../Assets/Images/login-button.png" alt="login">
+                <img src="../../Assets/Images/login-button.png" alt="login-icon">
             </a>
         </div>
     </header>
-    <main class="main-signup">
+    <main class="sign-up-main">
         <aside>
             <nav>
                 <ul>
-                    <div class="login-signup-side">
+                    <div class="login-sign-nav">
                         <li>
-                            <a href="./index.html">
+                            <a href="../views/index.html">
                                 HOME
                             </a>
                         </li>
                         <li>
-                            <a href="./login.html">
-                                LOG IN
+                            <a href="../views/login.html">
+                                LOGIN
                             </a>
                         </li>
                     </div>
                 </ul>
-                <div class="data-side">
+                <div class="contact-aside">
                     <div>
-                        <img src="../../Assets/Images/ubicacion.png" alt="location">
-                        <p>Av. Pellegrini  3535</p>
+                        <img src="../../Assets/Images/ubicacion.png" alt="location-icon">
+                        <p>Av. Pellegrini 3535</a>
                     </div>
                     <div>
-                        <img src="../../Assets/Images/telefono.png" alt="phone">
-                        <p>+464 206 96</p>
+                        <img src="../../Assets/Images/telefono.png" alt="ring-phone">
+                        <a href="tel:+34678567876">+34678567876</a>
                     </div>
                 </div>
             </nav>
         </aside>
-        <form class="form-signup">
-            <h2>SIGN-UP</h2>
-            <div class="label-input-container">
+        <form class="sign-up-form">
+            <h2>Sign Up</h2>
+            <div class="container-label-input">
                 <label for="name">Name</label>
-                <input id="name" type="text" name="name">
+                <input id= "name" type="text" name="name" placeholder="John">
             </div>
-            <div class="label-input-container">
-                <label for="surname">Last Name</label>
-                <input id="surname" type="text" name="surname">
+            <div class="container-label-input">
+                <label for="lastName">LastName</label>
+                <input id="last-name" type="text" name="lastName" placeholder="Johnson">
             </div>
-            <div class="label-input-container">
+            <div class="container-label-input">
                 <label for="dni">DNI</label>
-                <input id="dni" type="text" name="dni">
+                <input id="dni" type="text" name="dni" placeholder="22667788">
             </div>
-            <div class="label-input-container">
-                <label for="dateOfBirth">Date of Birth</label>
-                <input id="dateOfBirth" type="date" name="dateOfBirth">
+            <div class="container-label-input">
+                <label for="birthdate">Birthdate</label>
+                <input id="birthdate" type="date" name="birthdate" >
             </div>
-            <div class="label-input-container">
+            <div class="container-label-input">
                 <label for="phone">Phone Number</label>
-                <input id="phone" type="text" name="phone">
+                <input id="phone-number" type="text" name="phone" placeholder="3412699765">
             </div>
-            <div class="label-input-container">
+            <div class="container-label-input">
                 <label for="adress">Adress</label>
-                <input id="adress" type="text" name="adress">
+                <input id="adress" type="text" name="adress" placeholder="Sabin 2254">
             </div>
-            <div class="label-input-container">
+            <div class="container-label-input">
                 <label for="city">City</label>
-                <input id="city" type="text" name="city">
+                <input id="city" type="text" name="city" placeholder="Rosario">
             </div>
-            <div class="label-input-container">
+            <div class="container-label-input">
                 <label for="zipCode">Zip Code</label>
-                <input id="zipCode" type="text" name="zipCode">
+                <input id="zip-code" type="text" name="zipCode" placeholder="2000">
             </div>
-            <div class="label-input-container">
-                <label for="email">E-mail</label>
-                <input id="email" type="text" name="email">
+            <div class="container-label-input">
+                <label for="email">Email</label>
+                <input id="email" type="text" name="email" placeholder="johnjohnson@gmail.com">
             </div>
-            <div class="label-input-container">
+            <div class="container-label-input">
                 <label>Password</label>
-                <input id="password" type="password">
+                <input id="password" type="password" placeholder="*********">
             </div>
-            <div class="label-input-container">
+            <div class="container-label-input">
                 <label>Repeat Password</label>
-                <input id="repeatPassword" type="password">
+                <input id="repeat-password" type="password" placeholder="***********">
             </div>
-            <div class="label-input-container">
-                <input id="button-signup" type="button" class="button-accept" value="SIGN UP">
+            <div class="container-label-input">
+                <input type="button" id="sign-up-button" class="accept-button" value="Register">
             </div>
         </form>
         <div id="myModal" class="modal">
@@ -122,20 +120,20 @@
     </main>
     <footer>
         <a href="#" target="_blank">
-            <img src="../../Assets/Images/instagram.png" alt="instagram">
+            <img src="../../Assets/Images/instagram.png" alt="instagram-logo">
             @rocketgym
         </a>
         <a href="tel:+34678567876">
-            <img src="../../Assets/Images/whatsapp.png" alt="whatsapp">
-            +1 408 741 2369
+            <img src="../../Assets/Images/whatsapp.png" alt="whatsapp-logo">
+            +34678567876
         </a>
         <a href="#" target="_blank">
-            <img src="../../Assets/Images/facebook.png" alt="facebook">
+            <img src="../../Assets/Images/facebook.png" alt="facebook-logo">
             Mega Rocket Gym
         </a>
         <p>
-            MEGA ROCKET SA
-            <span>All rights reserved. 2023 ©</span>
+           Mega rocket sa
+           <span>All rights reserved. 2023©</span>
         </p>
     </footer>
 </body>

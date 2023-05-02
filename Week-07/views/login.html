@@ -7,73 +7,71 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Lato:wght@100;400;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../Week-06/css/reset.css">
-    <link rel="stylesheet" href="../../Week-06/css/common.css">
-    <link rel="stylesheet" href="../../Week-06/css/header.css">
-    <link rel="stylesheet" href="../../Week-06/css/footer.css">
-    <link rel="stylesheet" href="../../Week-06/css/login.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/login.css">
     <script src="../js/login.js" defer></script>
-    <title>Mega Rocket Login</title>
-    <link rel="mega-icon" href="../../Assets/Images/logo-mega.png" type="image/png">
+    <title>MegaRocket-Login</title>
+    <link rel="icon" href="../../Assets/Images/logo-mega.png" type="image/png">
 </head>
 <body>
     <header>
-        <div class="container-header-logo">
-            <a href="../views/index.html">
-                <img class="logo-mega" src="../../Assets/Images/logo-mega.png" alt="logo Mega Rocket"/>
-            </a>
-                <h1>MEGA ROCKET S.A.</h1>
+        <div class="logo-header-container">
+            <a href="../views/index.html"><img class="logo" src="../../Assets/Images/logo-mega.png" alt="radium-rocket-logo"></a>
+            <h1>
+                MEGA ROCKET S.A.
+            </h1>
         </div>
-        <div class="container-login-signup">
-            <button class="hamburger-menu">
-                <img src="../../Assets/Images/hamburguesa.png" alt="hamburger menu">
-            </button>
+        <div class="login-sign-header">
+            <button class="burguer-menu"><img src="../../Assets/Images/hamburguesa.png" alt="burguer-menu"></button>
             <a href="../views/sign-up.html">
                 SIGN UP
-                <img src="../../Assets/Images/signup-button.png" alt="sign up">
+                <img src="../../Assets/Images/signup-button.png" alt="sign-up-icon">
             </a>
         </div>
     </header>
-    <main class="main-login">
+    <main class="log-in-main">
         <aside>
             <nav>
                 <ul>
-                    <div class="login-signup-side">
+                    <div class="login-sign-nav">
                         <li>
-                            <a href="./index.html">
+                            <a href="../views/index.html">
                                 HOME
                             </a>
                         </li>
                         <li>
-                            <a href="./sign-up.html">
+                            <a href="../views/sign-up.html">
                                 SIGN UP
                             </a>
                         </li>
                     </div>
                 </ul>
-                <div class="data-side">
+                <div class="contact-aside">
                     <div>
-                        <img src="../../Assets/Images/ubicacion.png" alt="location">
-                        <p>Av. Pellegrini  3535</p>
+                        <img src="../../Assets/Images/ubicacion.png" alt="location-icon">
+                        <p>Av. Pellegrini 3535</a>
                     </div>
                     <div>
-                        <img src="../../Assets/Images/telefono.png" alt="phone">
-                        <p>+464 206 96</p>
+                        <img src="../../Assets/Images/telefono.png" alt="ring-phone">
+                        <a href="tel:+34678567876">+34678567876</a>
                     </div>
                 </div>
             </nav>
         </aside>
-        <form class="form-login">
-            <h2>LOG IN</h2>
-            <div class="label-input-container">
-                <label for="email">E-mail:</label>
+        <form class="log-in-form">
+            <h2>Log-in</h2>
+            <div class="container-label-input">
+                <label for="email">Email:</label>
                 <input id="email" type="text" name="email" placeholder="example@gmail.com">
             </div>
-            <div class="label-input-container">
+            <div class="container-label-input">
                 <label for="password">Password:</label>
-                <input id="password" type="password" placeholder="●●●●●●●●">
+                <input id="password" type="password"  placeholder="*********"/>
             </div>
-            <input id="button-login" class="button-accept" type="button" value="LOG IN">
+            <input id="log-in-button" class="accept-button" type="button" value="Log in">
         </form>
 
         <div id="myModal" class="modal">
@@ -85,20 +83,20 @@
     </main>
     <footer>
         <a href="#" target="_blank">
-            <img src="../../Assets/Images/instagram.png" alt="instagram">
+            <img src="../../Assets/Images/instagram.png" alt="instagram-logo">
             @rocketgym
         </a>
         <a href="tel:+34678567876">
-            <img src="../../Assets/Images/whatsapp.png" alt="whatsapp">
-            +1 408 741 2369
+            <img src="../../Assets/Images/whatsapp.png" alt="whatsapp-logo">
+            +34678567876
         </a>
         <a href="#" target="_blank">
-            <img src="../../Assets/Images/facebook.png" alt="facebook">
+            <img src="../../Assets/Images/facebook.png" alt="facebook-logo">
             Mega Rocket Gym
         </a>
         <p>
-            MEGA ROCKET SA
-            <span>All rights reserved. 2023 ©</span>
+           Mega rocket sa
+           <span>All rights reserved. 2023©</span>
         </p>
     </footer>
 </body>
