@@ -1,17 +1,19 @@
-var myName = document.querySelector("#name");
+var name1 = document.querySelector("#name");
 var lastName = document.querySelector("#lastname");
 var email = document.querySelector("#email");
 var contactReason = document.querySelector("#contact-reason");
 var message = document.querySelector("#message");
+
 var submitButtonContact = document.querySelector("#submit-button-contact");
 var emailRegex = /^[^@]+@[^@]+.[a-zA-Z]{2,}$/;
 
+
 function validateName() {
-  if (myName.value === "") {
+  if (name1.value === "") {
     return 1;
-  } else if (onlyLetters(myName.value) == false) {
+  } else if (onlyLetters(name1.value) == false) {
     return 2;
-  } else if (myName.value.length < 3) {
+  } else if (name1.value.length < 3) {
     return 3;
   } else {
     return true;
@@ -40,6 +42,7 @@ function validateEmail() {
   }
 }
 
+
 function validateMessage() {
   if (message.value == "") {
     return 1;
@@ -67,19 +70,19 @@ function blurFunction(evt) {
       var errorName = validateName();
 
       if (errorName === 1) {
-        myName.insertAdjacentHTML(
+        name1.insertAdjacentHTML(
           "afterend",
-          '<span id="nameError" class="errorMessage">Field required</span>'
+          '<span id="name-error" class="error-message">Name required</span>'
         );
       } else if (errorName === 2) {
-        myName.insertAdjacentHTML(
+        name1.insertAdjacentHTML(
           "afterend",
-          '<span id="nameError" class="errorMessage">This field can only contain letters</span>'
+          '<span id="name-error" class="error-message">The name can only contain letters</span>'
         );
       } else if (errorName === 3) {
-        myName.insertAdjacentHTML(
+        name1.insertAdjacentHTML(
           "afterend",
-          '<span id="nameError" class="errorMessage">This field must have a minimum of 3 letters</span>'
+          '<span id="name-error" class="error-message">The name must have a minimum of 3 letters</span>'
         );
       }
       break;
@@ -89,17 +92,17 @@ function blurFunction(evt) {
       if (errorLastName === 1) {
         lastName.insertAdjacentHTML(
           "afterend",
-          '<span id="lastNameError" class="errorMessage">Field required</span>'
+          '<span id="lastName-error" class="error-message">Lastname required</span>'
         );
       } else if (errorLastName === 2) {
         lastName.insertAdjacentHTML(
           "afterend",
-          '<span id="lastNameError" class="errorMessage">This field can only contain letters</span>'
+          '<span id="lastName-error" class="error-message">The lastname can only contain letters</span>'
         );
       } else if (errorLastName === 3) {
         lastName.insertAdjacentHTML(
           "afterend",
-          '<span id="lastNameError" class="errorMessage">This field must have a minimum of 3 letters</span>'
+          '<span id="lastName-error" class="error-message">The lastname must have a minimum of 3 letters</span>'
         );
       }
       break;
@@ -109,12 +112,12 @@ function blurFunction(evt) {
       if (errorEmail === 1) {
         email.insertAdjacentHTML(
           "afterend",
-          '<span id="emailError" class="errorMessage">Field required</span>'
+          '<span id="email-error" class="error-message">Email required</span>'
         );
       } else if (errorEmail === 2) {
         email.insertAdjacentHTML(
           "afterend",
-          '<span id="emailError" class="errorMessage">Enter a valid e-mail address</span>'
+          '<span id="email-error" class="error-message">Enter a valid e-mail address(for example juanalberto@gmail.com)</span>'
         );
       }
       break;
@@ -123,12 +126,12 @@ function blurFunction(evt) {
       if (errorMessage === 1) {
         message.insertAdjacentHTML(
           "afterend",
-          '<span id="messageError" class="errorMessage">Field required</span>'
+          '<span id="message-error" class="error-message">Message required</span>'
         );
       }else if (errorMessage === 2) {
         message.insertAdjacentHTML(
             "afterend",
-            '<span id="messageError" class="error-Message">This field must have a minimum of 15 characters</span>'
+            '<span id="message-error" class="error-message">The message must have a minimum of 15 characters</span>'
           );
       }
       break;
@@ -146,14 +149,14 @@ function focusFunction(evt) {
 function buttonSignUpClick(event) {
     event.preventDefault();
   if (
-    validateName() === true &&
+    validateName() ===true &&
     validateLastName() === true &&
-    validateEmail() === true &&
+    validateEmail() ===true &&
     validateMessage() === true
   ) {
     alert(
       "Name: " +
-        myName.value +
+        name1.value +
         "\nLastName: " +
         lastName.value +
         "\nEmail: " +
@@ -165,13 +168,13 @@ function buttonSignUpClick(event) {
 
     );
   } else {
-    alert("Complete all fields correctly");
+    alert("Fill in all the fields correctly");
   }
 }
-myName.addEventListener("blur", function () {
+name1.addEventListener("blur", function () {
     blurFunction(1);
   });
-  myName.addEventListener("focus", function () {
+  name1.addEventListener("focus", function () {
     focusFunction("name");
   });
   lastName.addEventListener("blur", function () {
@@ -187,7 +190,7 @@ myName.addEventListener("blur", function () {
     focusFunction("email");
   });
   message.addEventListener("blur", function () {
-    blurFunction(5);
+    blurFunction(4);
   });
   message.addEventListener("focus", function () {
     focusFunction("message");
