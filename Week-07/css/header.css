@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
 header{
     display: flex;
     flex-direction: row;
@@ -13,7 +14,7 @@ header{
 h1{
     display: none;
 }
-.hamburguer-menu{
+.burguer-menu{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,14 +24,14 @@ h1{
     border-radius: 5px;
     border: none;
 }
-.hamburguer-menu img{
+.burguer-menu img{
     width: 50px;
     height: 40px;
 }
-.container-login-signup a{
+.login-sign-header a{
     display: none;
 }
-.login-signup-side{
+.login-sign-nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,21 +50,21 @@ h1{
         padding: 20px;
         background-color: #323232;
     }
-    .container-header-logo{
+    .logo-header-container{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .hamburguer-menu{
+    .burguer-menu{
         display: none;
     }
-    .container-login-signup{
+    .login-sign-header{
         display: flex;
         justify-content: space-around;
         gap:60px;
     }
-    .container-login-signup a{
+    .login-sign-header a{
         display: inline;
         width: 164px;
         height: 66px;
@@ -71,7 +72,7 @@ h1{
         background-color: #FFFFFF;
         border-radius: 5px;
     }
-    .container-login-signup a{
+    .login-sign-header a{
         font-weight: 500;
         font-size: 1.55rem;
         text-decoration: none;

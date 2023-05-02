@@ -1,8 +1,8 @@
-.form-signup{
+.sign-up-form{
     width :90%;
     height: 900px;
 }
-.form-signup div{
+.sign-up-form div{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,29 +10,29 @@
 }
 
 @media (min-width:601px){
-    .form-signup{
+    .sign-up-form{
         flex-direction: row;
         justify-content:initial;
         width: 70%;
     }
-    .form-signup h2{
+    .sign-up-form h2{
         flex-basis: 100%;
         justify-content: center;
     }
 
-    .form-signup div{
+    .sign-up-form div{
         width: 50%;
     }
 
-    .form-signup div input{
-        width: 60%;
+    .sign-up-form div input{
+        width: 80%;
     }
-    .form-signup div:last-child{
+    .sign-up-form div:last-child{
         flex-basis: 100%;
         justify-content: center;
         align-content: space-between;
     }
-    .form-signup .button-accept{
-        width: 20%;
+    .sign-up-form .accept-button{
+        width: 40%;
     }
 }

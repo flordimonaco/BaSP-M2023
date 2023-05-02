@@ -2,7 +2,7 @@ main{
     background-color: #535353;
     text-align: center;
 }
-#container-home{
+#home-container{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -11,14 +11,14 @@ main{
     background-image:linear-gradient(#00000080, #00000080), url(../../Assets/Images/inicio-mobile.png);
     background-size:cover;
 }
-#container-features{
+#features-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     gap: 50px;
 }
-#container-features article{
+#features-container article{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -28,67 +28,71 @@ main{
     background-position: center;
     border-radius: 30px;
 }
-#container-features h3{
+#features-container h3{
     font-weight: 900;
     color: #E3EC39;
 }
-#container-features p{
+#features-container p{
     text-align: center;
     font-weight: 600;
     white-space: pre-line;
 }
-.features-reservations{
+.reservation-features{
     background-image: linear-gradient(#00000080, #00000080),url(../../Assets/Images/reservations.png);
 }
-.features-schedule{
+.schedule-features{
     background-image: linear-gradient(#00000080, #00000080),url(../../Assets/Images/schedule.png);
 }
-.features-memberships{
+.memberships-features{
     background-image: linear-gradient(#00000080, #00000080),url(../../Assets/Images/memberships.png);
 }
-.features-contactsuggestions{
+.suggestions-features{
     background-image: linear-gradient(#00000080, #00000080),url(../../Assets/Images/contactsuggestions.png);
 }
-#container-contact{
+#contact-container{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#container-contact form{
+#contact-container form{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     width: 90%;
-    height: 80vh;
+    height: 650px;
     padding: 30px 0;
     background-color: #FFFFFF;
     border-radius: 30px;
 }
-.contact-input{
+.inputs-contact{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    height: 150px;
+}
+.inputs-contact:last-child{
+    height: 500px;
 }
 
-.contact-input input,
-.contact-input select{
+.inputs-contact input,
+.inputs-contact select{
     height: 30px;
     border: 1px solid #373867;
 }
-.contact-input input,
-.contact-input select,
-.contact-input textarea{
+.inputs-contact input,
+.inputs-contact select,
+.inputs-contact textarea{
     width: 80%;
     background: linear-gradient(0deg, #00000033, #00000033), #FFFFFF;
     border-radius: 4px;
     font-size: 1rem;
     color: #535353fc;
+
 }
-.contact-input textarea{
+.inputs-contact textarea{
     border: none;
 }
-#submit-button{
+#submit-button-contact{
     width: 75px;
     height: 35px;
     margin: 20px auto;
@@ -100,7 +104,7 @@ main{
     color: #000000;
 }
 
-.activities-list{
+.line-activities{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -108,16 +112,16 @@ main{
     gap: 50px;
     margin: 50px 0px;
 }
-#container-activities{
+#activities-container{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
 }
-#container-activities h2{
+#activities-container h2{
     align-self: center;
 }
-#container-activities article{
+#activities-container article{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,36 +132,36 @@ main{
     border-radius: 10px;
     text-align: center;
 }
-#container-activities h3{
+#activities-container h3{
     background-color: hsla(0, 0%, 7%, 0.568);
     border-radius: 10px;
     color: #FFFFFF;
 }
-.activities-crossfit{
-    background-image: linear-gradient(#0000004d, #0000004d),url(../../Assets/Images/crossfit.jpg);  
+.crossfit-article{
+    background-image: linear-gradient(#0000004d, #0000004d),url(../../Assets/Images/crossfit.jpg);
 }
-.activities-box{
-    background-image: linear-gradient(#0000004d, #0000004d),url(../../Assets/Images/box.png);  
+.box-article{
+    background-image: linear-gradient(#0000004d, #0000004d),url(../../Assets/Images/box.png);
 }
-.activities-functional{
-    background-image: linear-gradient(#0000004d, #0000004d),url(../../Assets/Images/functional.png);  
+.functional-article{
+    background-image: linear-gradient(#0000004d, #0000004d),url(../../Assets/Images/functional.jpg);
 }
-.activities-spinning{
-    background-image: linear-gradient(#0000004d, #0000004d),url(../../Assets/Images/spinning.png);  
+.spinning-article{
+    background-image: linear-gradient(#0000004d, #0000004d),url(../../Assets/Images/spinning.png);
 }
-.activities-fitness{
-    background-image: linear-gradient(#0000004d, #0000004d),url(../../Assets/Images/fitness.png);  
+.fitness-article{
+    background-image: linear-gradient(#0000004d, #0000004d),url(../../Assets/Images/fitness.png);
 }
-#container-memberships{
+#memberships-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
-#container-memberships ul{
+#memberships-container ul{
     width: 90%;
 }
-#container-memberships li{
+#memberships-container li{
     height: 80vh;
     margin: 70px 0;
     background-size:cover;
@@ -165,21 +169,24 @@ main{
     border-radius: 10px;
     white-space: pre-line;
 }
-#container-memberships p{
+#memberships-container p{
     font-weight: 700;
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.onlyclasses-membership{
+.basic-membership{
     background-image: linear-gradient(#000000b3, #000000b3),url(../../Assets/Images/onlyclasses.png);
 }
 .classic-membership{
-    background-image: linear-gradient(#000000b3, #000000b3),url(../../Assets/Images/classic.png);
+    background-image: linear-gradient(#000000b3, #000000b3),url(../../Assets/Images/classic.jpg);
 }
 .black-membership{
     background-image: linear-gradient(#000000b3, #000000b3),url(../../Assets/Images/black.png);
 }
-#container-story{
+.display-only-desktop{
+    display: none;
+}
+#our-story-container{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -188,7 +195,7 @@ main{
     gap: 30px;
     padding: 50px 0px 200px;
 }
-#container-story div{
+#our-story-container div{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -199,7 +206,7 @@ main{
     border-radius: 18px;
     white-space: pre-line;
 }
-#container-story p{
+#our-story-container p{
     font-size: 1rem;
     font-weight: 500;
     color: #404040;
@@ -212,51 +219,51 @@ main{
     main p{
         font-size: 1.9rem;
     }
-    #container-home{
+    #home-container{
         height: 200vh;
     }
-    #container-features{
+    #features-container{
         gap: 140px;
     }
-    #container-features article{
+    #features-container article{
         height: 450px;
     }
-    #container-features h3{
+    #features-container h3{
         font-size: 3.5rem;
     }
-    #container-features p{
+    #features-container p{
         font-size: 2.8rem;
     }
 
-    #container-contact form{
+    #contact-container form{
         flex-direction: row;
         flex-wrap: wrap;
     }
-    .contact-inputs:not(:last-child){
+    .inputs-contact:not(:last-child){
         width: 45%;
     }
-    #container-activities article{
+    #activities-container article{
         height: 65vh;
     }
-    #container-activities h3{
+    #activities-container h3{
         font-size: 5rem;
     }
-    #container-memberships li{
+    #memberships-container li{
         height: 65vh;
     }
-    .onlyclasses-membership{
+    .basic-membership{
         background-image: linear-gradient(#8b7c7c66, #8b7c7c66),url(../../Assets/Images/onlyclasses.png);
     }
     .classic-membership{
-        background-image: linear-gradient(#8b7c7c66, #8b7c7c66),url(../../Assets/Images/classic.png);
+        background-image: linear-gradient(#8b7c7c66, #8b7c7c66),url(../../Assets/Images/classic.jpg);
     }
     .black-membership{
         background-image: linear-gradient(#8b7c7c66, #8b7c7c66),url(../../Assets/Images/black.png);
     }
-    #container-story div{
+    #our-story-container div{
         height: 40vh;
     }
-    #container-story p{
+    #our-story-container p{
         font-size: 1.5rem;
     }
 }
@@ -278,88 +285,91 @@ main{
         flex-direction: column;
         justify-content: space-between;
     }
-    h2{
-        flex-basis: 100%;
-        justify-content: center;
-    }
     nav a,
     nav p{
         color: #000000;
     }
-    .login-signup-side{
+    .login-sign-nav{
         display: none;
     }
-    #container-home{
+    h2{
+        flex-basis: 100%;
+        justify-content: center;
+    }
+    #home-container{
         height: 100vh;
         background-image: linear-gradient(#00000080, #00000080),url(../../Assets/Images/inicio.png);
     }
-    #container-home h2{
+    #home-container h2{
         flex-basis: content;
     }
-    #container-home p{
+    #home-container p{
         font-size: 1.9rem;
         white-space: normal;
     }
-    #container-features{
+    #features-container{
         justify-content: center;
     }
-    #container-features article{
+    #features-container article{
         width: 40%;
         height: 35vh;
     }
-    #container-features p{
+    #features-container p{
         font-size: 1.9rem;
         white-space: normal;
     }
-    #container-contact form{
+    #contact-container form{
         flex-direction: row;
         flex-wrap: wrap;
-        height: 60vh;
+        height: 500px;
     }
-    .contact-input label{
+    .inputs-contact label{
         padding: 10px 0;
         text-align: left;
     }
-    .contact-input:not(:last-child){
+    .inputs-contact:not(:last-child){
         width: 25%;
     }
-    .contact-input:last-child{
+    .inputs-contact:last-child{
         width: 100%;
     }
 
-    .activities-list{
+    .line-activities{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
         gap: 30px;
     }
-    #container-activities article{
+    #activities-container article{
         width: 30%;
         height: 25vh;
     }
-    #container-memberships ul{
+    #memberships-container ul{
         width: 40%;
     }
-    #container-memberships li{
+    #memberships-container li{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         height: 70vh;
     }
 
-    #container-story{
+    #our-story-container{
         flex-direction: row;
         justify-content: space-around;
     }
-    #container-story h2{
+    #our-story-container h2{
         flex-basis:content ;
         font-size: 3.75rem;
     }
-    #container-story div{
+    #our-story-container div{
         width: 55%;
         height: 50vh;
     }
-    #container-story p{
+    #our-story-container p{
         font-size: 1.5rem;
+    }
+    .display-only-desktop{
+        display: block;
     }
 }

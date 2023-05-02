@@ -1,10 +1,10 @@
-.form-login{
+.log-in-form{
     width: 70%;
-    height: 50vh;
+    height: 450px;
 }
 
 @media (min-width:1025px){
-    .form-login{
+    .log-in-form{
         width: 40%;
     }
 }
